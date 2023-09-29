@@ -1,0 +1,30 @@
+*{
+    margin : 0;
+    padding : 0;
+   }
+h1{
+    text-align: center;
+}
+.prof{
+    h2{
+    text-align: center;
+    color: red;
+    }  
+    border: black;
+    pre{
+        font-family:'Times New Roman', Times, serif;
+    }
+    h3{
+        font-weight: lighter;
+        text-align: center;
+    }
+    h4{
+        text-align: right;
+    }
+    h5{
+        color:green;
+        font-size:x-small;
+        text-align: right;
+        transform: x;
+    }
+}
