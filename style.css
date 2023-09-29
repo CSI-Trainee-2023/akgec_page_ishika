@@ -33,56 +33,23 @@ header {
 
     background-image: url('https://www.akgec.ac.in/wp-content/uploads/2019/08/building2.jpg');
     background-image: repeat;
-    /* width :900px; */
     width: 100%;
     height :500px;
   }
-.roww{
-    /* padding-top: 20px; */
+.row{
     display: flex;
     justify-content: space-between;
     z-index: 5;
 }
 .headerImg{
   width: 100%;
-  /* aspect-ratio: 4/9; */
-  /* object-fit: cover; */
-  /* border: 2px solid red; */
 }
 #lastHeaderImg{
   object-fit: contain;
 }
 
 
-    /* :nth-child(1) {
-      width: 300%;
-      height :250px;
-      position: left;
-      transform: translateX(20px) translateY(3px);
-     
-    }
-  :nth-child(2) {
-      position: right;
-      transform: translateX(28px) translateY(3px);
-      width: 300px;
-      height :250px;
-     
-     }
-  :nth-child(3) {
-      position: centre;
-      transform: translateX(18px) translateY(3px);
-      width: 300px;
-      height :250px;
-     
-  }
-  :nth-child(4) {
-    position: centre;
-    transform: translateX(16px) translateY(3px);
-    width: 300px;
-    height :250px;
-   
-  }
-} */
+  
   ul {
     list-style-type: none;
     margin: 0;
@@ -140,8 +107,6 @@ header {
 #slides img{
   width:100%;
 }
-
- 
 .page {
     width: 100%;
     max-width: 960px;
@@ -154,6 +119,7 @@ header {
   h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
    }
   p {
     line-height: 24px;
@@ -162,8 +128,95 @@ header {
   
 
 
- 
+h3{
+  color: #f1f1f1;
+} */
+p{
+  color: #f1f1f1;
+}
+
+.admnn{
+  color:yellow;
+
+}
+.middle{
+  color: white;
+  background-color: grey;
+  text-align: left;
+}
+.right{
+  color:#f1f1f1;
+  text-align: left;
+}
+.first{
+  color:#f1f1f1;
+  text-align: left;
+}
+.left1{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #f1f1f1;
+}
+.left2{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #f1f1f1;
+}
+.left3{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #f1f1f1;
+}
+.leftOne{
   
+  color: white;
+  width: 120%;
+}
+.middleOne{
+  
+  color: white;
+  width: 120%;
+}
+.middle{
+  background-color: #1f1d1f;
+}
+.righteOne{
+  display: flex;
+  flex-direction: column;
+}
+h3{
+  color: #f1f1f1;
+}
+p{
+  color: #f1f1f1;
+}
+
+.footerr{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: none;
+  background-color:#1f1d1f;
+}
+.content{
+  color: #1f1d1f;
+}
+.placement{
+h1{
+  text-align: center;
+}
+}
+.placementimg{
+  display:flex;
+  overflow: hidden;
+}
+.placementimg img{
+  width:100%;
+}
+
     
   
   
