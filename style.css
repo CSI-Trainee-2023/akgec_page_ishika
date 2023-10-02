@@ -2,51 +2,64 @@
  margin : 0;
  padding : 0;
 }
-header {
-    text-align: center;
-  }
-  .logo {
-    padding: 600px;
-    line-height: 1.2;
-    margin-bottom: -1px;
 
-  }
+  /* .logo { */
+    /* padding: 600px; */
+    /* line-height: 1.2; */
+    /* margin-bottom: -1px; */
+  /* } */
 
-  body{
+ table{
     background-size: 70%;
   }
- #akgec{
-     
-     
-     color: black;
-	font-size: 40px;
-	width: 80%;
-	margin: auto;
-	padding-top: 5rem;
-  }
-  h2 {
-    padding:0 ;
-    font-family:courier;
-    font-size: 20px;
-  }
- #logo{
-
+  
+  .bg{
     background-image: url('https://www.akgec.ac.in/wp-content/uploads/2019/08/building2.jpg');
-    background-image: repeat;
-    width: 100%;
-    height :500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    padding-bottom: 420px;
+    p{
+      text-shadow:2px 2px 5px purple;
+    }
+    
+
+
   }
+ 
+/* #naac{ */
+  /* z-index: 5; */
+/* } */
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+   #firstheaderimg{ 
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* z-index: 5; */
+    width:70%;
+    height: 70%;
+    padding-left: 34%;
+    /* height: px;  */
+    /* padding: 70px;   */
+   
+  }
+    display: flex;
+    flex-direction: row;
+    /* object-fit: contain; */
+     justify-content: left; 
+    align-items: center; 
+  }
+
 .row{
     display: flex;
     justify-content: space-between;
     z-index: 5;
 }
-.headerImg{
-  width: 100%;
-}
-#lastHeaderImg{
-  object-fit: contain;
-}
+
 .ted{
   h1{
     text-align: center;
@@ -56,7 +69,7 @@ header {
     text-decoration-style:initial;
     text-decoration-line: underline;
     text-transform: uppercase;
-    text-shadow: 2px 2px yellow;
+    text-shadow: 2px 2px 5px red;
   }
   border-width:0.4cqmax;
   border-style: solid;
@@ -74,6 +87,7 @@ header {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    text: size 200px ;
   }
   
   li {
@@ -83,13 +97,14 @@ header {
   li a, .dropbtn {
     display: inline-block;
     color: white;
+    text-shadow: 2px 2px 8px blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover, .department:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(71, 9, 9);
   }
   
   li.department {
@@ -121,132 +136,71 @@ header {
 #slides{
   display:flex;
   overflow: hidden;
+ img{
+  width:100%;}
 }
-#slides img{
-  width:100%;
-}
+
 .page {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
- 
+       width: 100%;
+       max-width: 960px;
+       margin: 0 auto;
+  .content{
+      color: #1f1d1f;}
   
   #About {
-  h1 {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items:center;
+   .dirabt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+   }
+   .director1{
+    width:40%;padding-right: 40%;
+    ;
+   }
+   .abt{
+    /* padding-right: -20px; */
+    .abt1{
+      text-align: start;
+      justify-content: start;
+      width: 40%;
+    }
+   }
+   h1{ 
+    /* font-size:xx-large; */
     font-size: 24px;
-    color: blue;
+    color: black;
     margin-bottom: 10px;
     text-align: center;
     border: black;
     border-style:solid;
+    border-color: aqua;
+    width: 1438;
     border-width: 2px;
     border-color: #1f1d1f;
-    text-shadow:2px 2px blueviolet;
+    text-shadow: 2px 2px 5px blueviolet;
    }
-   pre{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-   }
+  
   p{
-    line-height: 24px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    line-height: 24px; 
+    padding-bottom: 10px;
+   }
   }
 }
   
 
 
-h3{
-  color: #f1f1f1;
-} */
-p{
-  color: #f1f1f1;
-}
-
-
-.middle{
- 
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: #1f1d1f;
-    color: white;
-    text-align: left;
-}
-.right{
-  color:#f1f1f1;
-  text-align: left;
-}
-.first{
-  color:#f1f1f1;
-  text-align: left;
-}
-.left1{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  color: #f1f1f1;
-}
-.left2{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  color: #f1f1f1;
-}
-.left3{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  color: #f1f1f1;
-}
-.lefttxt{
-  h2{
-    color: red;
-    padding-bottom:10px;
-    text-decoration:underline ;
-  
-  }
-  padding-left:40px;
-  color: white;
-  width: 120%;
-}
-.middlelink{
-  color: red;
-  padding-top:25px;
-  padding-bottom:20px;
-  text-decoration:underline ;
-  
-  width: 120%;
-}
-
-.rightetxt{
-  display: flex;
-  flex-direction: column;
- p{
-  padding-top:55px;
-  padding-bottom:40px;
-}
-
- } 
-
-
-h3{
-  color: red;
-  padding-bottom:20px;
-  text-decoration:underline ;
-}
-p{
-  color: #f1f1f1;
-}
-
-.footer{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: none;
-  background-color:#1f1d1f;
-}
-.content{
-  color: #1f1d1f;
-}
-.placement{
+.placement
+{
+.ourplacement{
   h1{
     color:blue;
     text-shadow:2px 2px blueviolet;
@@ -261,31 +215,17 @@ p{
      font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-.placementimg{
-  display:flex;
-  overflow: hidden;
-}
-.placementimg img{
-  width:100%;
+.placementimg
+  {
+     display:flex;
+     overflow: hidden;
+     width:100%;
+  }
 }
 
-    
-  .sucess{
-    .sucessimg{
-      width: 100%;
-    }
-      display: flex;
-      justify-content: space-between;
-     
-  
-  .sucessImg{
-    width: 100%;
-  }
-  #sucessImg{
-    object-fit: contain;
-  }
-  }
-  .simg{
+.sucessstories{
+  .sucesstitle
+  {
     color:black;
     text-shadow:2px 2px blueviolet;
     padding-bottom: 10px;
@@ -293,31 +233,186 @@ p{
      border: #1f1d1f;
      border-width: 4px;
      border-style:solid ;
-    h1{ 
+    h1
+    { 
      padding-top: 10px;
      padding-bottom: 10px;
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-size:xx-large;
 
+     position: relative;
+     animation-name: SuccessStories ;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+     animation-direction:alternate;
+    }
+    /* h1:hover{
+      animation-play-state: paused;
+    } */
+    @keyframes SuccessStories {
+      from{left:100px;}
+      to{right:0px;}
+      
+    }
   }
+  .success{
+    .sucessimg
+     {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      object-fit: contain;
+      position: relative;
+      animation-name: sucess;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+     }
+    display: flex; 
+    margin-left: 0%;
+    margin-right: 0%;
+    .neeraj{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-shadow: purple;
+    }
+    #neerajText{
+      padding-top: 70%;
+      padding-left: 4%;
+      text-align: center;
+    }
+
+  }
+  @keyframes sucess{
+    from{left: 80px;}
+    to{left:0px;}
+  }
+  /* #srishti{
+
+  }
+  */
+
+.buttons{
+  display:flex;
+  justify-content: space-between;
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: royalblue;
+    border: none;
+    color: #0c0201;
+    text-align: center;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-left: -10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   text-shadow: 2px 2px 5px #333;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ }
 }
-.button{
-  border: none;
-  color: black;
-  padding: 5px 12px;
-  text-align: centre;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color: rgb(16, 10, 100);
-  margin-left: 160px;
-  margin-right: 160px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
+
+
+.footer {
+
+  .addressContent{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 5px red;
+  }
+  .addressinquiry{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 5px red;
+  }
+  .info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 5px red;
+  }
+  .address{
+    h2{
+      color: red;
+      padding-bottom:10px;
+      text-decoration:underline ;
+      text-shadow: 2px 2px 5px rgb(79, 18, 18);
+    }
+    padding-left:40px;
+    color: white;
+    width: 120%;
+  }
+  .quicklink{
+    color: red;
+    padding-top:25px;
+    padding-bottom:20px;
+    text-decoration:underline ;
+    width: 100%;
+    text-shadow: 2px 2px 5px rgb(79, 18, 18); }
+  
+  .link{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #1f1d1f;
+    color: white;
+    text-align: left;
+    text-shadow: 2px 2px 5px red;}
+  
+  .footeraboutakgec{
+    display: flex;
+    flex-direction: column;
+  
+     h3{ color: red;
+      padding-bottom:20px;
+       text-decoration:underline ;
+       text-shadow: 2px 2px 5px rgb(79, 18, 18);
+      }
+  
+      p{color: #f1f1f1;
+        text-shadow: 2px 2px 5px red;}
+  } 
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: none;
+    background-color:#1f1d1f;
+  
+  }
+
+  
   
   
   
